@@ -1,6 +1,5 @@
 
 function alternate(s) {
-    // Write your code here
     let a = [...new Set(s)]
     console.log('a',a)
     let b = '';
