@@ -10,6 +10,7 @@ if (b.includes(a)){
   for (let char of c){
     freq[char] = (freq[char] || 0) + 1
   }
+  //console.log(freq)
   for (let key in freq){
     if (freq[key] === 1)
     return 'NO';
